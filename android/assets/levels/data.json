@@ -1,0 +1,10 @@
+{
+"episodes": [
+{ "title": "00. the basics", "length": 2 , position: "0"},
+{ "title": "01. guidelines", "length": 2 , position: "1"},
+{ "title": "02. first demanding things", "length": 4 , position: "2"},
+{ "title": "03. eclipse", "length": 3 , position: "3"},
+{ "title": "04. guidelines", "length": 4 , position: "4"},
+{ "title": "05. xd", "length": 3 , position: "5"}
+]
+}

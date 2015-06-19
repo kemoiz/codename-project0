@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" renderorder="right-down" width="40" height="40" tilewidth="16" tileheight="16">
+ <tileset firstgid="1" name="tiles" tilewidth="16" tileheight="16">
+  <properties>
+   <property name="obstacle" value=""/>
+  </properties>
+  <image source="tiles.png" width="304" height="161"/>
+  <tile id="0">
+   <properties>
+    <property name="obstacle" value="regular"/>
+   </properties>
+  </tile>
+  <tile id="3">
+   <properties>
+    <property name="water" value="1"/>
+   </properties>
+  </tile>
+  <tile id="6">
+   <properties>
+    <property name="obstacle" value="regular"/>
+   </properties>
+  </tile>
+  <tile id="8">
+   <properties>
+    <property name="finish" value=""/>
+   </properties>
+  </tile>
+  <tile id="11">
+   <properties>
+    <property name="obstacle" value="regular"/>
+   </properties>
+  </tile>
+  <tile id="12">
+   <properties>
+    <property name="lava" value="1"/>
+   </properties>
+  </tile>
+  <tile id="13">
+   <properties>
+    <property name="lava" value="2"/>
+   </properties>
+  </tile>
+  <tile id="14">
+   <properties>
+    <property name="obstacle" value="regular"/>
+   </properties>
+  </tile>
+  <tile id="15">
+   <properties>
+    <property name="speedup" value="1"/>
+   </properties>
+  </tile>
+  <tile id="16">
+   <properties>
+    <property name="obstacle" value="regular"/>
+   </properties>
+  </tile>
+  <tile id="17">
+   <properties>
+    <property name="obstacle" value=""/>
+   </properties>
+  </tile>
+  <tile id="19">
+   <properties>
+    <property name="obstacle" value="upperleft"/>
+   </properties>
+  </tile>
+  <tile id="20">
+   <properties>
+    <property name="obstacle" value="upperright"/>
+   </properties>
+  </tile>
+  <tile id="21">
+   <properties>
+    <property name="obstacle" value="bottomleft"/>
+   </properties>
+  </tile>
+  <tile id="22">
+   <properties>
+    <property name="obstacle" value="bottomright"/>
+   </properties>
+  </tile>
+  <tile id="35">
+   <properties>
+    <property name="obstacle" value=""/>
+   </properties>
+  </tile>
+  <tile id="36">
+   <properties>
+    <property name="obstacle" value=""/>
+   </properties>
+  </tile>
+ </tileset>
+ <layer name="tile_1" width="40" height="40">
+  <data encoding="base64" compression="zlib">
+   eJztlssKAjEMRWc14B/43qr43iqo//9V3k0ghNaxaeIE7IFLy8zmcho603WNf2WSSRSi91sh68QahQtyTaxRaP7qaP7qmCIzZC72UdgjB+Qo9lF4IE/kJfY7kQ2yZSt/Ngay3w25s7Vn+4j0YxcQ9IlEIlofTomvBbL8QRftWZ6Qs0MvouYcyZ2lQ8u5J3eWDq3mnpzR/4XGYe1sfYKc0f+FxqHXHSHdaR3m+g05HXov3Wkd5s63tA9/nnOncejRL+euZg6/6V3y3mr+vLCaP08s7j9PLO4/bzy+v5Z4fH+tieqOiOyu0UjxBmUnHWA=
+  </data>
+ </layer>
+ <layer name="tile_2" width="40" height="40">
+  <data encoding="base64" compression="zlib">
+   eJztzrENgDAQBEFn7r8McAvg2njnFh8g9MmMdNEl2xp/6MmqrYYjdsbG5qu2Gq7YHZubr9pbg76cvm/0AQAAAEDuAcIDBN4=
+  </data>
+ </layer>
+ <objectgroup name="obj">
+  <object name="start" x="447" y="429" width="16" height="12">
+   <properties>
+    <property name="start" value=""/>
+   </properties>
+  </object>
+  <object name="enemy_0" x="159.5" y="60.5" width="4" height="7">
+   <ellipse/>
+  </object>
+  <object name="enemy_1" x="366.5" y="219" width="4" height="7">
+   <ellipse/>
+  </object>
+  <object name="enemy_2" x="446" y="366" width="4" height="7">
+   <ellipse/>
+  </object>
+  <object name="enemy_3" x="23.5" y="434.5" width="4" height="7">
+   <ellipse/>
+  </object>
+ </objectgroup>
+</map>
